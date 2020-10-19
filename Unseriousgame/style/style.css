@@ -1,0 +1,114 @@
+/** import de polices **/
+
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+
+body {
+  background: url(https://media.giphy.com/media/14zSZXA5q24PC/source.gif);
+  color: rgb(250, 253, 247);
+  font-family: 'Ranchers', cursive;
+
+  /** permet de centrer les éléments dans la page **/
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/** l'image fait toujours la même hauteur **/
+img{
+  margin: 40px;
+  border: 1px solid yellow;
+  padding: 10px;
+  height: 40vh;
+  width: auto;
+}
+/** les titres ne sont pas trop grands **/
+h1,h2{
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+
+h1{
+  font-size: 30px;
+}
+h2{
+  font-size: 20px;
+}
+
+
+/** boutons **/
+.btn {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.btn:hover {
+	background-color:#ccc2a6;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+/** liste de boutons **/
+.btns-list{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  justify-content: center;
+}
+.btn{
+  margin: 15px;
+}
+
+
+
+/** faire bouger un peu tout ça **/
+h1,
+h2 {
+  animation-name: fade-in;
+  animation-duration: 1s;
+}
+
+/** faire clignotter le sous titre **/ 
+h3 {
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/** une animation de très bon goût **/
+.yeah{
+  animation: yeah 2s ease-out;
+}
+@keyframes yeah{
+  0%{
+    transform:rotate(-600deg) scale(0) rotateY(180deg)
+  }
+  100%{
+    transform: rotate(0deg) scale(1);
+  }
+}
+
