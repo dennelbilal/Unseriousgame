@@ -1,3 +1,3 @@
 # Unseriousgame
 test
-https://dennelbilal.github.io/Unseriousgame/llll/index.html
+https://dennelbilal.github.io/Unseriousgame/index.html
