@@ -4,15 +4,5 @@
  */
 
 body {
-  background: url(https://media.giphy.com/media/14zSZXA5q24PC/source.gif);
-  color: rgb(250, 253, 247);
-  font-family: 'Press Start 2P', cursive;
-
-  /** permet de centrer les éléments dans la page **/
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  background: #f5f5f5;
 }
