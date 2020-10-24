@@ -41,9 +41,8 @@ h2{
 
 
 /** boutons **/
-.btn {
+.myButton {
 	box-shadow: 0px 1px 0px 0px #1c1b18;
-	background: bottom, #eae0c2 5%, #ccc2a6 100%;
 	background-color:#eae0c2;
 	border-radius:15px;
 	border:2px solid #333029;
@@ -57,14 +56,14 @@ h2{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
 }
-.btn:hover {
-	background: bottom, #ccc2a6 5%, #eae0c2 100%;
+.myButton:hover {
 	background-color:#ccc2a6;
 }
-.btn:active {
+.myButton:active {
 	position:relative;
 	top:1px;
 }
+
 
 
 /** liste de boutons **/
