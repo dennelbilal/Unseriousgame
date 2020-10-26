@@ -86,9 +86,13 @@ h2{
   padding-right: 20px;
   position:absolute;
   top:0px;
-  border:-10px 0px 13px -7px #000000;
+  border: 5px 5px 5px 5px #000000;
   right: 20px;
-  width: 150px
+  width: 150px;
+  border-radius: 12px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+
 }
 
 .signature a{
