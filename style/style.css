@@ -4,7 +4,7 @@
 
 
 body {
-  background: url(https://www.nintendo-town.fr/wp-content/uploads/2020/07/Monster-Hunter-World.jpg);
+  background: url(https://cdn03.nintendo-europe.com/media/images/08_content_images/games_6/nintendo_3ds_12/3ds_monsterhunterstories_1/CI_3DS_MonsterHunterStories_Town_04.jpg);
   color: rgb(0, 0, 0);
   font-family: 'Ranchers', cursive;
 
@@ -64,8 +64,6 @@ h2{
 }
 
 
-
-
 /** liste de boutons **/
 .btns-list{
   display: flex;
@@ -77,7 +75,29 @@ h2{
   margin: 15px;
 }
 
+.signature{
+  background-color: #222;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position:absolute;
+  top:0px;
+  border: 5px 5px 5px 5px #000000;
+  right: 20px;
+  width: 150px;
+  border-radius: 12px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 
+}
+
+.signature a{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 20px;
+}
 
 /** faire bouger un peu tout ça **/
 h1,
