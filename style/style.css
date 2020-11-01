@@ -54,13 +54,6 @@ h2{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
 }
-.btnRouge {
-  color:#505739;
-	font-family:Arial;
-	font-size:14px;
-	padding:12px 16px;
-  text-decoration:none;
-}
 .btn:hover {
 	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
 	background-color:#ccc2a6;
