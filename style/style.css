@@ -54,45 +54,6 @@ h2{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
 }
-.btnNoir {
-	box-shadow: 0px 1px 0px 0px #1c1b18;
-	background:#eae0c2;
-	border:2px solid #333029;
-	display:inline-block;
-	cursor:pointer;
-	color:#000000;
-	font-family:Arial;
-	font-size:14px;
-	padding:12px 16px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
-}
-.btnBlanc {
-	box-shadow: 0px 1px 0px 0px #1c1b18;
-	background:#eae0c2;
-	border:2px solid #333029;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:14px;
-	padding:12px 16px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
-}
-.btnRouge {
-	box-shadow: 0px 1px 0px 0px #1c1b18;
-	background:#eae0c2;
-	border:2px solid #333029;
-	display:inline-block;
-	cursor:pointer;
-	color:#ff0000;
-	font-family:Arial;
-	font-size:14px;
-	padding:12px 16px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
-}
 .btn:hover {
 	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
 	background-color:#ccc2a6;
